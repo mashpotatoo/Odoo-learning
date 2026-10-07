@@ -1,0 +1,45 @@
+<odoo>
+    <record id="ultima_lead_form_view" model="ir.ui.view">
+        <field name="name">ultima.lead.form</field>
+        <field name="model">ultima.lead</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="phone"/>
+                        <field name="budget"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="ultima_lead_list_view" model="ir.ui.view">
+    <field name="name">ultima.lead.list</field>
+    <field name="model">ultima.lead</field>
+    <field name="arch" type="xml">
+        <list>
+            <field name="name"/>
+            <field name="phone"/>
+            <field name="budget"/>
+        </list>
+    </field>
+</record>
+
+    <record id="action_ultima_lead" model="ir.actions.act_window">
+        <field name="name">Ultima Lead</field>
+        <field name="res_model">ultima.lead</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <menuitem
+    id="menu_ultima_lead_root"
+    name="Ultima Leads"
+/>
+
+<menuitem
+    id="menu_ultima_lead"
+    name="Leads"
+    parent="menu_ultima_lead_root"
+    action="action_ultima_lead"
+/>
+</odoo>
