@@ -1,68 +1,43 @@
-# Week 1 - Python and Development Environment
+# Week 1 — Python Fundamentals & Odoo Development
 
-The first week of my 12-week Odoo development journey focuses on building a
-strong Python foundation, learning essential developer tools, setting up Odoo,
-and building my first custom Odoo module.
+**Status:** Completed ✅
 
-## Progress
+## Daily Progress
 
-- [x] [Day 1 - Python Basics](Day%201/README.md)
-- [x] [Day 2 - Python Data Structures](Day%202/README.md)
-- [x] [Day 3 - Python OOP](Day%203/README.md)
-- [x] [Day 4 - Developer Tools](Day%204/README.md)
-- [x] [Day 5 - Odoo Setup](Day%205/README.md)
-- [x] [Day 6 - First Odoo Module](Day%206/README.md)
-- [ ] Day 7 - Review
+| Day | Topic | Project / Achievement |
+|---|---|---|
+| Day 1 | Python Basics | Built a sales calculator with discounts and lead classification |
+| Day 2 | Data Structures | Built a lead manager using lists, dictionaries, sets, and loops |
+| Day 3 | Object-Oriented Programming | Built a sales management system using classes, inheritance, and method overriding |
+| Day 4 | Developer Tools | Practiced Git, GitHub, VS Code debugging, and terminal commands |
+| Day 5 | Odoo Environment | Set up Odoo 20, PostgreSQL, Python virtual environment, and custom addons |
+| Day 6 | First Odoo Module | Built and installed the Ultima Lead Management module |
+| Day 7 | Review & Computed Fields | Added automatic lead classification and tested recalculation |
 
-## Completed Projects
+## Final Project — Ultima Lead Management
 
-### Day 1 - Ultima Sales Calculator
+Developed a working Odoo module with:
 
-A command-line sales calculator that calculates subtotals, discounts, and final
-prices while classifying customer leads by budget.
+- Customer name, phone number, and budget fields
+- Form and list views
+- Navigation menus and access permissions
+- Automatic lead classification using `fields.Selection` and `@api.depends()`
+- Stored computed fields with PostgreSQL integration
 
-### Day 2 - Lead Management System
+### Classification Rules
 
-A command-line lead manager that stores customer data, validates numeric input,
-classifies leads, counts each lead type, and tracks unique cities.
+| Budget | Category |
+|---|---|
+| ≥ 40,000 BDT | Premium |
+| ≥ 25,000 BDT | Qualified |
+| Below 25,000 BDT | Low Budget |
 
-### Day 3 - OOP Sales Management
+**Verified:** Changing a lead's budget from 35,000 to 45,000 BDT automatically updates its category from Qualified to Premium.
 
-A Python sales management program using classes, objects, inheritance, method
-overriding, and `super()` to model products, water purifiers, and customer leads.
+## Skills Acquired
 
-### Day 4 - Developer Tools and Debugging
+Python fundamentals, OOP, Git, debugging, Odoo ORM, models, XML views, manifests, access rights, computed fields, PostgreSQL, and module upgrades.
 
-Practiced the development workflow using Git, GitHub, PowerShell, VS Code
-debugging tools, breakpoints, error tracing, and Python virtual environments.
+## Outcome
 
-### Day 5 - Odoo Development Environment
-
-Set up Odoo 20 with PostgreSQL, a Python virtual environment, configuration
-files, standard addons, and a custom addons directory for module development.
-
-### Day 6 - Ultima Lead Management Module
-
-Built my first working custom Odoo module with a lead model, fields, list and
-form views, window action, menus, access rights, and PostgreSQL-backed records.
-
-Also practiced accessing Odoo records through the ORM shell using
-`env["ultima.lead"]`.
-
-## Skills Practiced
-
-- Variables, data types, conditions, loops, and functions
-- Lists, tuples, dictionaries, and sets
-- Input validation and exception handling
-- Classes, objects, inheritance, and method overriding
-- Git and GitHub workflow
-- VS Code debugging and PowerShell
-- Python virtual environments
-- Odoo and PostgreSQL setup
-- Odoo models and ORM fields
-- XML list and form views
-- Window actions and menus
-- Odoo access rights
-- Module installation and upgrades
-- Reading database records through the Odoo ORM
-- Building small Python and Odoo applications
+Successfully completed Week 1 by progressing from basic Python programming to building, installing, debugging, and extending a functional Odoo module.
