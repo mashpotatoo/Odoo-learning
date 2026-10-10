@@ -1,49 +1,62 @@
 # Week 2 — Odoo Models & ORM
 
-**Status:** In Progress
+**Status:** In Progress  
+**Completed:** Day 8 and Day 9
 
 ## Objective
 
-Learn how Odoo defines business data, manages database records, and connects models using relational fields.
+Learn how Odoo defines business data, manages database records, and connects models through relationships.
 
 ## Daily Progress
 
 | Day | Topic | Status |
 |---|---|---|
-| Day 8 | Models and Model Structure | ✅ Completed |
-| Day 9 | Odoo Field Types | ⏳ Upcoming |
-| Day 10 | ORM CRUD Operations | ⏳ Upcoming |
-| Day 11 | Recordsets | ⏳ Upcoming |
-| Day 12 | Model Relationships | ⏳ Upcoming |
-| Day 13 | Computed Fields and Onchange | ⏳ Upcoming |
-| Day 14 | Practice and Integration | ⏳ Upcoming |
-
-## Week 2 Project — University Student Module
-
-Build an Odoo module containing:
-
-- Student name
-- Roll number
-- Email and phone
-- Department relationship
-- GPA
-- Date of birth
-- Basic CRUD operations
+| Day 8 | Models and Model Structure | Completed |
+| Day 9 | Odoo Field Types | Completed |
+| Day 10 | ORM CRUD Operations | Upcoming |
+| Day 11 | Recordsets | Upcoming |
+| Day 12 | Model Relationships | Upcoming |
+| Day 13 | Computed Fields and Onchange | Upcoming |
+| Day 14 | Practice and Integration | Upcoming |
 
 ## Completed Work
 
 ### Day 8 — Models
 
-- Learned `models.Model`, `_name`, `_description`, and `_table`
-- Understood models versus records
-- Learned Odoo's default PostgreSQL table naming
-- Practiced Student and Department model definitions
-- Corrected Python capitalization and syntax errors
+- Learned `models.Model`, `_name`, `_description`, and `_table`.
+- Understood the difference between models and records.
+- Practiced Student and Department model definitions.
+- Learned PostgreSQL table naming conventions.
 
-## Week 2 Deliverable
+### Day 9 — Fields
 
-A functional University Student module with fields, a department relationship, and working ORM operations.
+- Learned Char, Text, Integer, Float, Boolean, Date, Datetime, and Selection.
+- Implemented eight fields in the University Student model.
+- Practiced field labels, required fields, and selection options.
+- Reviewed and corrected the model's Python code.
+
+## Week 2 Project — University Student Module
+
+Planned functionality:
+
+- Student information
+- Roll number
+- Email and phone
+- Department relationship
+- GPA and date of birth
+- Student status
+- CRUD operations
+
+## Current Progress
+
+Student and Department model definitions have been practiced.
+
+The Student model now contains eight field definitions. Module installation, relationships, and ORM testing remain to be completed.
 
 ## Next Step
 
-**Day 9:** Learn and practice Odoo field types.
+**Day 10 — ORM Basics:** Learn `self.env`, `search()`, `browse()`, `create()`, `write()`, and `unlink()`.
+
+## Week 2 Deliverable
+
+A functional University Student module with student records, department relationships, and working CRUD operations.
