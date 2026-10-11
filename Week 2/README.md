@@ -1,7 +1,7 @@
 # Week 2 — Odoo Models & ORM
 
 **Status:** In Progress  
-**Completed:** Days 8, 9, and 10
+**Progress:** 4 of 7 days completed
 
 ## Learning Progress
 
@@ -10,48 +10,100 @@
 | Day 8 | Models and Model Structure | Completed |
 | Day 9 | Odoo Field Types | Completed |
 | Day 10 | ORM Basics and CRUD | Completed |
-| Day 11 | Recordsets | Upcoming |
-| Day 12 | Relationships | Upcoming |
+| Day 11 | Recordsets | Completed |
+| Day 12 | Model Relationships | Upcoming |
 | Day 13 | Computed Fields and Onchange | Upcoming |
-| Day 14 | Practice and Integration | Upcoming |
+| Day 14 | University Student Module Practice | Upcoming |
 
-## Completed Work
+## Day 8 — Models
 
-### Day 8 — Models
-- Learned `models.Model`, `_name`, `_description`, and `_table`.
-- Created Student and Department model definitions.
-- Understood models, records, and PostgreSQL table naming.
+Learned:
+- `models.Model`
+- `_name`
+- `_description`
+- Model and database table naming
+- Student and Department model definitions
 
-### Day 9 — Fields
-- Learned eight Odoo field types.
-- Defined student name, age, GPA, address, active status, date of birth, admission date, and status.
-- Practiced field labels and Selection options.
+## Day 9 — Field Types
 
-### Day 10 — ORM Basics
-- Learned `env` and ORM CRUD methods.
-- Practiced creating, searching, browsing, updating, and deleting records.
-- Understood ORM search domains.
-- Practiced updating multiple records with `search()` and `write()`.
+Practiced eight field types:
+- `Char`
+- `Text`
+- `Integer`
+- `Float`
+- `Boolean`
+- `Date`
+- `Datetime`
+- `Selection`
 
-## Week 2 Project — University Student Module
+Created a University Student model definition.
 
-**Planned features:**
-- Student information
-- Department relationship
-- GPA and academic status
-- CRUD operations
-- Model relationships and computed fields
+## Day 10 — ORM Basics
 
-## Current Outcome
+Practiced:
+- `env`
+- `create()`
+- `search()`
+- `browse()`
+- `write()`
+- `unlink()`
 
-Student and Department model definitions completed as code exercises. Eight student fields defined. Core ORM operations practiced.
+Understood CRUD operations and search domains.
 
-**Pending:** Module installation, database testing, relational fields, and final integration.
+## Day 11 — Recordsets
 
-## Next Step
+Practiced:
+- Recordset iteration using `for`
+- `mapped()` for field extraction
+- `filtered()` for conditional filtering
+- `sorted()` for ordering records
+- Combining multiple recordset methods
 
-Day 11 — Recordsets, iteration, `mapped()`, `filtered()`, and `sorted()`.
+### Combined Exercise
 
-## Week 2 Deliverable
+```python
+students = env["university.student"].search([])
 
-A functional University Student module with working CRUD operations and department relationships.
+top_students = students.filtered(
+    lambda student: student.gpa > 3.50
+)
+
+sorted_students = top_students.sorted(
+    key=lambda student: student.gpa,
+    reverse=True
+)
+
+names = sorted_students.mapped("name")
+print(names)
+```
+
+## University Student Module Progress
+
+**Completed as coding exercises:**
+- Student and Department model definitions
+- Eight student field types
+- ORM CRUD syntax
+- Recordset operations
+
+**Still pending:**
+- Relational fields
+- Final model integration
+- Module installation
+- Database CRUD testing
+
+## Remaining Plan
+
+### Day 12 — Relationships
+Learn `Many2one`, `One2many`, and `Many2many`.
+
+### Day 13 — Computed Fields
+Learn `@api.depends`, `@api.onchange`, and related fields.
+
+### Day 14 — Practice
+Integrate the University Student module, department relationships, and CRUD operations.
+
+## Week 2 Goal
+
+Build a working University Student module with student information, department relationships, and ORM operations.
+
+**Current status:** Conceptual code exercises completed through Day 11. Odoo database testing is pending.
