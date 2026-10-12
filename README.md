@@ -12,43 +12,39 @@ A 3-month hands-on learning journey focused on becoming an Odoo developer throug
 
 ## Progress Tracker
 
-| Week | Progress |
+| Month | Progress |
 |---|---|
-| Week 1 — Python Fundamentals & Odoo Setup | ✅ Completed |
-| Week 2 | ⏳ Upcoming |
-| Week 3 | ⏳ Upcoming |
-| Week 4 | ⏳ Upcoming |
-| Week 5–8 | ⏳ Upcoming |
-| Week 9–12 | ⏳ Upcoming |
+| [Month 1](./Month%201/README.md) - Python Fundamentals & Odoo Development | In progress - Weeks 1-2 completed |
+| [Month 2](./Month%202/README.md) | Upcoming |
+| [Month 3](./Month%203/README.md) | Upcoming |
 
-## Week 1 — Completed
+## Month 1 - In Progress
 
-Built foundational Python projects and developed my first working Odoo module.
+Completed the first two weeks of the learning journey, covering Python foundations and Odoo module development. Weeks 3 and 4 are ready for upcoming work.
 
 **Projects:**
 - Sales Calculator
 - Lead Manager
 - OOP Sales Management System
-- Ultima Lead Management — Odoo Custom Module
+- Ultima Lead Management - Odoo Custom Module
+- University Student Management
 
-**Key achievement:** Implemented automatic lead classification using Odoo computed fields and successfully tested database-backed recalculation.
-
-[View Week 1 Progress](./Week%201/README.md)
+[View Month 1 Progress](./Month%201/README.md)
 
 ## Technology Stack
 
-- **Language:** Python
-- **ERP Framework:** Odoo 20
-- **Database:** PostgreSQL
-- **Development Tools:** VS Code, PowerShell, Git, GitHub
-- **Odoo Technologies:** ORM, XML Views, Models, Security, Computed Fields
+- Language: Python
+- ERP Framework: Odoo 20
+- Database: PostgreSQL
+- Development Tools: VS Code, PowerShell, Git, GitHub
+- Odoo Technologies: ORM, XML Views, Models, Security, Computed Fields
 
 ## Learning Approach
 
-**Learn → Build → Debug → Test → Document → Commit**
+Learn -> Build -> Debug -> Test -> Document -> Commit
 
 The focus is on understanding concepts and applying them through working projects rather than only following tutorials.
 
 ## Current Status
 
-**Week 1 completed — preparing for Week 2.**
+Month 1 - Weeks 1 and 2 completed; continuing with Week 3.
