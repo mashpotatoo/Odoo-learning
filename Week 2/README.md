@@ -1,103 +1,62 @@
-# Week 2 — Odoo Models & ORM
+# Week 2 — Odoo Module Development
 
-**Status:** In Progress  
-**Progress:** 6 of 7 days completed
+**Status:** Completed
+
+## Goal
+
+Learn the fundamentals of Odoo module development and build a working application using the Odoo ORM, XML views, access permissions, and model relationships.
 
 ## Learning Progress
 
 | Day | Topic | Status |
 |---|---|---|
-| Day 8 | Models and Model Structure | Completed |
-| Day 9 | Odoo Field Types | Completed |
-| Day 10 | ORM Basics and CRUD | Completed |
-| Day 11 | Recordsets | Completed |
-| Day 12 | Model Relationships | Completed |
-| Day 13 | Computed Fields and Onchange | Completed |
-| Day 14 | University Student Module Practice | Upcoming |
+| 8 | Odoo module structure and manifest | Completed |
+| 9 | Models and fields | Completed |
+| 10 | XML views and menus | Completed |
+| 11 | Access rights and security | Completed |
+| 12 | Many2one relationships | Completed |
+| 13 | One2many relationships | Completed |
+| 14 | University Student Module Integration | Completed |
 
-## Completed Topics
+## Final Project — University Student Management
 
-### Day 8 — Models
+Built a working Odoo 20 application with two connected models:
 
-- `models.Model`
-- `_name` and `_description`
-- Model naming and PostgreSQL table concepts
-- Student and Department model definitions
+- `university.student`
+- `university.department`
 
-### Day 9 — Field Types
+### Features
 
-- `Char`, `Text`, `Integer`, `Float`
-- `Boolean`, `Date`, `Datetime`, `Selection`
-- Student model field definitions
+- Student registration and management
+- Department registration and management
+- Student-to-department assignment
+- Department-to-students relationship
+- List and form interfaces
+- Navigation menus
+- Internal-user access permissions
 
-### Day 10 — ORM Basics
+### Technologies
 
-- `env`
-- `create()`, `search()`, `browse()`
-- `write()`, `unlink()`
-- CRUD operations and search domains
+- Python
+- Odoo 20
+- Odoo ORM
+- XML
+- PostgreSQL
+- PowerShell
+- Git and GitHub
 
-### Day 11 — Recordsets
+## Important Lessons
 
-- Iteration
-- `mapped()`
-- `filtered()`
-- `sorted()`
-- Combining recordset operations
+1. Odoo models define database-backed business objects.
+2. XML views control how records appear in the interface.
+3. A manifest declares module metadata and files to load.
+4. Security rules control which users can access records.
+5. Many2one and One2many represent opposite sides of a relationship.
+6. Odoo versions can introduce breaking changes, so checking the installed source is important.
+7. Successful installation should be followed by functional testing in the UI.
 
-### Day 12 — Relationships
+## Week 2 Result
 
-- `Many2one`
-- `One2many`
-- `Many2many`
-- Inverse fields
-- Student, Department, Teacher, and Course relationship examples
+Successfully installed and tested the University Student Management module, including both directions of the Student–Department relationship.
 
-### Day 13 — Computed Fields and Business Logic
-
-- Computed fields with `compute`
-- Dependencies with `@api.depends`
-- Stored computed fields
-- Form updates using `@api.onchange`
-- Related fields through `Many2one`
-- Total marks, average marks, percentage, GPA performance, and department information exercises
-
-## University Student Module Progress
-
-**Completed as coding exercises:**
-- Model definitions
-- Basic field types
-- ORM CRUD syntax
-- Recordset operations
-- Relational field definitions
-- Computed fields
-- Onchange methods
-- Related fields
-
-**Pending:**
-- Integration into an installable Odoo module
-- Required module structure and access permissions
-- Student and Department records
-- Database CRUD testing
-- Relationship and computed-field verification
-
-## Day 14 — Final Practice
-
-Integrate and test the University Student module.
-
-Planned student information:
-- Name
-- Roll number
-- Email
-- Phone
-- Department
-- GPA
-- Date of birth
-
-Verify model relationships and CRUD operations.
-
-## Week 2 Goal
-
-Build a working University Student module with student information, department relationships, and ORM operations.
-
-**Current status:** Learning exercises completed through Day 13. Module integration and runtime verification are pending.
+**Next:** Week 3 — Continue the Odoo development roadmap.
