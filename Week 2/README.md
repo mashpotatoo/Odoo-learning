@@ -1,7 +1,7 @@
 # Week 2 — Odoo Models & ORM
 
 **Status:** In Progress  
-**Progress:** 5 of 7 days completed
+**Progress:** 6 of 7 days completed
 
 ## Learning Progress
 
@@ -12,64 +12,92 @@
 | Day 10 | ORM Basics and CRUD | Completed |
 | Day 11 | Recordsets | Completed |
 | Day 12 | Model Relationships | Completed |
-| Day 13 | Computed Fields and Onchange | Upcoming |
+| Day 13 | Computed Fields and Onchange | Completed |
 | Day 14 | University Student Module Practice | Upcoming |
 
 ## Completed Topics
 
 ### Day 8 — Models
-- `models.Model`, `_name`, `_description`
-- Student and Department model definitions
-- Model naming and database table concepts
 
-### Day 9 — Fields
+- `models.Model`
+- `_name` and `_description`
+- Model naming and PostgreSQL table concepts
+- Student and Department model definitions
+
+### Day 9 — Field Types
+
 - `Char`, `Text`, `Integer`, `Float`
 - `Boolean`, `Date`, `Datetime`, `Selection`
-- University Student model field definitions
+- Student model field definitions
 
 ### Day 10 — ORM Basics
-- `env`, `create()`, `search()`, `browse()`
+
+- `env`
+- `create()`, `search()`, `browse()`
 - `write()`, `unlink()`
-- Basic CRUD operations
+- CRUD operations and search domains
 
 ### Day 11 — Recordsets
-- Iteration using `for`
+
+- Iteration
 - `mapped()`
 - `filtered()`
 - `sorted()`
 - Combining recordset operations
 
 ### Day 12 — Relationships
-- `Many2one` — Student to Department
-- `One2many` — Department to Students
-- `Many2many` — Student to Courses
-- Inverse field concepts
+
+- `Many2one`
+- `One2many`
+- `Many2many`
+- Inverse fields
+- Student, Department, Teacher, and Course relationship examples
+
+### Day 13 — Computed Fields and Business Logic
+
+- Computed fields with `compute`
+- Dependencies with `@api.depends`
+- Stored computed fields
+- Form updates using `@api.onchange`
+- Related fields through `Many2one`
+- Total marks, average marks, percentage, GPA performance, and department information exercises
 
 ## University Student Module Progress
 
-**Completed as exercises:**
-- Student and Department model definitions
-- Basic student fields
+**Completed as coding exercises:**
+- Model definitions
+- Basic field types
 - ORM CRUD syntax
 - Recordset operations
 - Relational field definitions
+- Computed fields
+- Onchange methods
+- Related fields
 
 **Pending:**
-- Computed and related fields
-- Onchange behavior
-- Integration of all model definitions
-- Module installation and database testing
+- Integration into an installable Odoo module
+- Required module structure and access permissions
+- Student and Department records
+- Database CRUD testing
+- Relationship and computed-field verification
 
-## Remaining Plan
+## Day 14 — Final Practice
 
-### Day 13 — Business Logic
-Practice `@api.depends`, `@api.onchange`, and related fields.
+Integrate and test the University Student module.
 
-### Day 14 — University Student Practice
-Integrate student information, department relationships, and CRUD operations into the module.
+Planned student information:
+- Name
+- Roll number
+- Email
+- Phone
+- Department
+- GPA
+- Date of birth
+
+Verify model relationships and CRUD operations.
 
 ## Week 2 Goal
 
-Build and test a working University Student module with student information, department relationships, and ORM operations.
+Build a working University Student module with student information, department relationships, and ORM operations.
 
-**Current status:** Learning exercises completed through Day 12. Module integration and database testing remain pending.
+**Current status:** Learning exercises completed through Day 13. Module integration and runtime verification are pending.
