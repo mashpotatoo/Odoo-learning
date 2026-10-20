@@ -48,3 +48,13 @@ The focus is on understanding concepts and applying them through working project
 ## Current Status
 
 Month 1 - Weeks 1 and 2 completed; continuing with Week 3.
+
+## Intensive Roadmap
+
+The intensive checklist is tracked separately from the original Month/Week/Day lessons.
+
+| Intensive day | Topic | Status | Completed |
+|---|---|---|---|
+| [Day 1](./Intensive%20Roadmap/Day%201/README.md) | University User Roles | Complete | October 20, 2026 |
+
+Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The next intensive lesson is Security Testing; its remaining checks are listed in the Day 1 README.
