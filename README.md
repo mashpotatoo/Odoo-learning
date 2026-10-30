@@ -59,6 +59,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 5](./Intensive%20Roadmap/Day%205/README.md) | View Inheritance and Module Interaction | Complete | October 22, 2026 |
 | [Day 6](./Intensive%20Roadmap/Day%206/README.md) | Month 1 Review | Complete | October 23, 2026 |
 | [Day 7](./Intensive%20Roadmap/Day%207/README.md) | Improve the Student Module | Complete | October 24, 2026 |
+| [Day 9](./Intensive%20Roadmap/Day%209/README.md) | Department and Course Modules (Original Days 32-33) | Complete | October 30, 2026 |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -67,3 +68,5 @@ Day 5 documents a separate customization addon, its dependency on `university_st
 Day 6 documents the completed practical and concept review, including role permissions, workflow, GPA validation, department relationships, guardian persistence, inheritance, and test-data cleanup. Its results distinguish screenshots and user confirmations from earlier automated tests.
 
 Day 7 documents computed age, future birth-date validation, an inherited Age field, and a timezone cache bug fix. It records 27 passing tests, deployment and live permission checks, user-confirmed interface checks, and remaining maintenance items.
+
+Day 9 documents the new Course addon, its links to the existing Department model, inherited Courses tab, menus, and role permissions. It records file checks, screenshot evidence, and user-confirmed manual role exercises, with the limits of verification stated separately.
