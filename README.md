@@ -63,6 +63,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 10](./Intensive%20Roadmap/Day%2010/README.md) | Enrollment Module (Original Day 34) | Complete | October 30, 2026 |
 | [Day 12](./Intensive%20Roadmap/Day%2012/README.md) | Enrollment Workflow (Original Days 36-37) | Complete | October 31, 2026 |
 | [Day 13](./Intensive%20Roadmap/Day%2013/README.md) | Attendance Workflow (Original Days 38-39) | Complete | November 1, 2026 |
+| [Day 14](./Intensive%20Roadmap/Day%2014/README.md) | Automation and Security (Original Days 40-41) | Complete - verification limits documented | November 1, 2026 |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -79,3 +80,5 @@ Day 10 documents the Enrollment addon, student/course links, enrollment date and
 Day 12 documents Enroll, Cancel, and Reset to Draft actions, status-dependent buttons, and a read-only status bar. It records 26 passing workflow checks, the successful live upgrade and server-health verification, user-confirmed Administrator and Teacher exercises, and the limits of action-level transition enforcement.
 
 Day 13 documents the Attendance addon, Record Present/Absent actions, lifecycle workflow, confirmed-record attendance totals and percentage, duplicate protection, role permissions, 93 passing checks, live upgrade evidence, and the recorded manual role confirmations.
+
+Day 14 documents the daily summary job, confirmation automation, hardened Teacher permissions, internal workflow token, matching form restrictions, 64 passing checks, and the live upgrade. It distinguishes the verified scheduled execution from the unverified manual confirmation event, and records the separate filestore cleanup issue and unconfirmed tracker update.
