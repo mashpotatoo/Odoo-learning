@@ -62,6 +62,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 9](./Intensive%20Roadmap/Day%209/README.md) | Department and Course Modules (Original Days 32-33) | Complete | October 30, 2026 |
 | [Day 10](./Intensive%20Roadmap/Day%2010/README.md) | Enrollment Module (Original Day 34) | Complete | October 30, 2026 |
 | [Day 12](./Intensive%20Roadmap/Day%2012/README.md) | Enrollment Workflow (Original Days 36-37) | Complete | October 31, 2026 |
+| [Day 13](./Intensive%20Roadmap/Day%2013/README.md) | Attendance Workflow (Original Days 38-39) | Complete | November 1, 2026 |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -76,3 +77,5 @@ Day 9 documents the new Course addon, its links to the existing Department model
 Day 10 documents the Enrollment addon, student/course links, enrollment date and status, duplicate protection, and role permissions with own-enrollment visibility for Students. It records file checks, the duplicate-error screenshot, manual role observations, and the limits of verification.
 
 Day 12 documents Enroll, Cancel, and Reset to Draft actions, status-dependent buttons, and a read-only status bar. It records 26 passing workflow checks, the successful live upgrade and server-health verification, user-confirmed Administrator and Teacher exercises, and the limits of action-level transition enforcement.
+
+Day 13 documents the Attendance addon, Record Present/Absent actions, lifecycle workflow, confirmed-record attendance totals and percentage, duplicate protection, role permissions, 93 passing checks, live upgrade evidence, and the recorded manual role confirmations.
