@@ -67,6 +67,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 15](./Intensive%20Roadmap/Day%2015/README.md) | ERP Review (Original Day 42) | Review recorded - 2 open findings | Pending |
 | [Day 16](./Intensive%20Roadmap/Day%2016/README.md) | QWeb and Report Actions (Original Days 43-44) | HTML verified; PDF verified in Day 17 follow-up | November 2, 2026 |
 | [Day 17](./Intensive%20Roadmap/Day%2017/README.md) | Student Profile Report (Original Day 45) | Complete - HTML, PDF, and enrollments verified | November 2, 2026 |
+| [Day 18](./Intensive%20Roadmap/Day%2018/README.md) | Result Card Report (Original Day 46) | Basic Result Card PDF verified; full checklist unverified | November 2, 2026 |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -91,3 +92,5 @@ Day 15 records the November 2 ERP review: user-confirmed validation, relationshi
 Day 16 documents the Student Summary HTML report, QWeb instructions, Print binding, explicit Student read-access check, 27 passing report checks, live installation, and user-confirmed role, missing-roll, and batch exercises. Its PDF setup was completed and verified in the Day 17 follow-up; no tracker update is claimed.
 
 Day 17 documents the Student Profile with personal, academic, contact/guardian, and enrollment sections, inherited access enforcement, missing-value handling, and working Windows PDF output for both student reports. It records 62 final isolated checks, live role-based downloads, visual PDF verification, and the inspected three-item Ultima checklist without claiming an automated tracker status change.
+
+Day 18 documents the basic Student Result Card with Student details and stored GPA, inherited read-access enforcement, QWeb fallbacks, and a PDF Print action. It records 27 passing checks, a successful live upgrade, PDF downloads for all three roles, visual inspection, and the user-confirmed interface exercise. The detailed Ultima checklist was not inspected; no broader checklist sign-off or tracker update is claimed.
