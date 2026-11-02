@@ -4,7 +4,9 @@
 - **HTML exercise verified:** November 2, 2026
 - **Environment:** Odoo 20 on native Windows, PostgreSQL
 - **Addon:** `university_reports`, version `1.0.0`
-- **Status:** HTML reporting verified; PDF engine configuration and PDF output remain pending
+- **Status:** HTML reporting verified during Day 16; PDF output subsequently verified in the Day 17 follow-up
+
+> **November 2 follow-up:** [Day 17](../Day%2017/README.md) records the completed Windows PDF-engine setup and successful Student Summary/Profile PDF downloads. The sections below preserve the original Day 16 implementation and verification scope, including its then-pending PDF work.
 
 ## Overview
 
