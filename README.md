@@ -65,6 +65,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 13](./Intensive%20Roadmap/Day%2013/README.md) | Attendance Workflow (Original Days 38-39) | Complete | November 1, 2026 |
 | [Day 14](./Intensive%20Roadmap/Day%2014/README.md) | Automation and Security (Original Days 40-41) | Complete - verification limits documented | November 1, 2026 |
 | [Day 15](./Intensive%20Roadmap/Day%2015/README.md) | ERP Review (Original Day 42) | Review recorded - 2 open findings | Pending |
+| [Day 16](./Intensive%20Roadmap/Day%2016/README.md) | QWeb and Report Actions (Original Days 43-44) | HTML verified - PDF pending | Pending |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -85,3 +86,5 @@ Day 13 documents the Attendance addon, Record Present/Absent actions, lifecycle 
 Day 14 documents the daily summary job, confirmation automation, hardened Teacher permissions, internal workflow token, matching form restrictions, 64 passing checks, and the live upgrade. It distinguishes the verified scheduled execution from the unverified manual confirmation event, and records the separate filestore cleanup issue and unconfirmed tracker update.
 
 Day 15 records the November 2 ERP review: user-confirmed validation, relationships, Enrollment and Attendance checks, and role restrictions, plus a read-only source/database audit. Final sign-off remains pending the missing Teacher module and an older Student record with an uncorrected GPA of 5.0; no new automated test count is claimed.
+
+Day 16 documents the Student Summary HTML report, QWeb instructions, Print binding, explicit Student read-access check, 27 passing report checks, live installation, and user-confirmed role, missing-roll, and batch exercises. PDF engine configuration and PDF output remain pending; no tracker update is claimed.
