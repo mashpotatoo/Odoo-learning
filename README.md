@@ -69,6 +69,7 @@ The intensive checklist is tracked separately from the original Month/Week/Day l
 | [Day 17](./Intensive%20Roadmap/Day%2017/README.md) | Student Profile Report (Original Day 45) | Complete - HTML, PDF, and enrollments verified | November 2, 2026 |
 | [Day 18](./Intensive%20Roadmap/Day%2018/README.md) | Result Card Report (Original Day 46) | Basic Result Card PDF verified; full checklist unverified | November 2, 2026 |
 | [Day 19](./Intensive%20Roadmap/Day%2019/README.md) | Report Design and Extra Report (Original Days 47-49) | Reports and PDFs verified; manual interface/tracker sign-off pending | November 4, 2026 |
+| [Day 20](./Intensive%20Roadmap/Day%2020/README.md) | HTTP Controllers and Ecommerce Learning Setup | HTTP practical verified; full tracker sign-off unverified | November 5, 2026 |
 
 Day 1 documents Administrator, Teacher, and Student groups in `university_student`, the configured permissions, separate test accounts, and the UI checks completed during the lesson. The Day 1 README also records its verification evidence and the security checks planned at that time.
 
@@ -97,3 +98,5 @@ Day 17 documents the Student Profile with personal, academic, contact/guardian, 
 Day 18 documents the basic Student Result Card with Student details and stored GPA, inherited read-access enforcement, QWeb fallbacks, and a PDF Print action. It records 27 passing checks, a successful live upgrade, PDF downloads for all three roles, visual inspection, and the user-confirmed interface exercise. The detailed Ultima checklist was not inspected; no broader checklist sign-off or tracker update is claimed.
 
 Day 19 documents the Enrollment Register, shared formatting and A4 paper format for all four reports, preserved company branding, and the continuation-page header-overlap fix. It records 42 passing checks, 12 PDF variants across 22 visually reviewed pages, a successful live upgrade, and 12 authenticated downloads through the Print download controller. Manual interface confirmation and Ultima tracker sign-off remain pending; the separate background file-cleanup permission issue is recorded.
+
+Day 20 documents the separate `ecommerce_learning` addon and its public `/learning/http` controller, including imports, the initial manifest, routing settings, plain-text responses, database selection, and debugging. Saved November 5 checks and repeated November 7 live checks verify GET/HEAD success and POST rejection. Full Day 20 tracker sign-off remains unverified; Day 21's product and quotation JSON APIs are separate work.
